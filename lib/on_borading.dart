@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:introduction_screen/introduction_screen.dart';
 
 class OnBorading extends StatelessWidget {
   const OnBorading({super.key});
@@ -19,13 +20,13 @@ class OnBorading extends StatelessWidget {
     title: "Quick and easy learning",
     body: "Easy and fast learning at any time to help you improve various skills",
     image: const BuildImage(
-    image: "assets/images/img_2.png",
+    image: "assets/images/img_1.png",
     )),
     PageViewModel(
     title: "Create your own study plan",
     body: "Study according to the study plan, make study more motivated",
     image: const BuildImage(
-    image: "assets/images/img_1.png",
+    image: "assets/images/img_2.png",
 
 
     )),
