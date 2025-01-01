@@ -1,4 +1,4 @@
-import 'package:chairty_app/views/auth/add_complaints.dart';
+
 import 'package:chairty_app/views/component/custom_dotIndicator.dart';
 import 'package:flutter/material.dart';
 
@@ -30,7 +30,7 @@ class OnBoarding3 extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.all(15),
             child: Text(
-              "Throw volunteering and helping , you contribute to improving the lives of others and the development of your community.",
+              "من خلال التطوع والمساعدة فإنك تساهم في تحسين حياة الآخرين وتنمية مجتمعك.",
               style: TextStyle(color: primarycolor, fontSize: 17),
             ),
           ),

@@ -34,7 +34,7 @@ class OnBoarding2 extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.all(15),
             child: Text(
-              "Volunteering and assisting are among the most beautiful acts that a person can undertake.",
+              " التطوع والمساعدة من أجمل الأعمال التي يمكن للإنسان أن يقوم بها",
               style: TextStyle(color: primarycolor, fontSize: 17),
             ),
           ),
