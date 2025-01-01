@@ -42,7 +42,7 @@ class OnBoarding3 extends StatelessWidget {
               backgroundColor: primarycolor,
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context){
-                  return AddComplaints();
+                  return Homeview();
                 },),);
               },
               child: const Icon(
