@@ -1,4 +1,5 @@
 
+import 'package:chairty_app/views/auth/widgets/home_screen.dart';
 import 'package:chairty_app/views/component/custom_dotIndicator.dart';
 import 'package:flutter/material.dart';
 
@@ -42,7 +43,7 @@ class OnBoarding3 extends StatelessWidget {
               backgroundColor: primarycolor,
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context){
-                  return Homeview();
+                  return HomeScreen();
                 },),);
               },
               child: const Icon(
