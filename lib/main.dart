@@ -1,4 +1,6 @@
-import 'package:chairty_app/splash_view.dart';
+
+import 'package:chairty_app/views/auth/widgets/splash_view_body.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,8 +14,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      locale: Locale("ar"),
       debugShowCheckedModeBanner: false,
-      home: SplashView(),
+      home: SplashViewBody(),
     );
   }
 
