@@ -14,7 +14,7 @@ class OnBoarding3 extends StatelessWidget {
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           SizedBox(
             width: double.infinity,
-            height: 700,
+            height: 600,
             child: Center(child: Image.asset("assets/images/splash3.png")),
           ),
           const SizedBox(
